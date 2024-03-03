@@ -46,9 +46,9 @@ setup(
     description = 'Astronomical Interferometry in PYthon',
     long_description = get_description(),
     license = 'GPL',
-    author = 'Aaron Parsons',
-    author_email = 'aparsons@berkeley.edu',
-    url = 'http://github.com/HERA-Team/aipy',
+    author = 'Dale Gary, Sijie Yu',
+    author_email = 'sijie.yu@njit.edu',
+    url = 'https://github.com/ovro-eovsa/aipy-eovsa',
     classifiers = [
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Science/Research',
