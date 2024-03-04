@@ -35,7 +35,7 @@ jobs:
         python setup.py check
         python setup.py sdist
         python setup.py bdist_wheel --universal
-        auditwheel repair your_wheel.whl
+        auditwheel repair dist/aipy_eovsa-*-cp38-cp38-linux_x86_64.whl
 
 
     - name: Publish package to PyPI
