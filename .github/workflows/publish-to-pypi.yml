@@ -35,8 +35,7 @@ jobs:
         python setup.py check
         python setup.py sdist
         python setup.py bdist_wheel --universal
-        auditwheel repair dist/aipy_eovsa-*-cp38-cp38-linux_x86_64.whl
-
+        auditwheel repair dist/aipy_eovsa-*-cp38-cp38-linux_x86_64.whl --plat manylinux2014_x86_64
 
     - name: Publish package to PyPI
       uses: pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
