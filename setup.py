@@ -40,13 +40,16 @@ def indir(path, files):
 
 global_macros = [('NPY_NO_DEPRECATED_API', 'NPY_1_7_API_VERSION')]
 
+with open('README.md', encoding='utf-8') as f:
+    long_description = f.read()
+
 setup(
     name='aipy-eovsa',
     setup_requires=['setuptools_scm'],
     version='0.1.1.3',
     description='Astronomical Interferometry in PYthon customized for EOVSA',
     # long_description=get_description(),
-    long_description='README.md',
+    long_description=long_description,
     long_description_content_type='text/markdown',
     license_files=("LICENSE", "LICENSE-GPL"),
     author='Dale Gary, Sijie Yu',
