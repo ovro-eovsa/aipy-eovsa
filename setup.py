@@ -47,7 +47,7 @@ setup(
     description='Astronomical Interferometry in PYthon customized for EOVSA',
     long_description=get_description(),
     long_description_content_type='text/markdown',
-    license='GPL',
+    license_files=("LICENSE", "LICENSE-GPL"),
     author='Dale Gary, Sijie Yu',
     author_email='sijie.yu@njit.edu',
     url='https://github.com/ovro-eovsa/aipy-eovsa',
