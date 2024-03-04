@@ -2,6 +2,20 @@
 requires = ["setuptools>=42", "wheel", "numpy", "setuptools-scm[toml]>=6.2"]
 build-backend = "setuptools.build_meta"
 
+[project]
+name = "aipy-eovsa"
+version = "0.1.1.2"
+description = "AIPY package customized for EOVSA data analysis."
+authors = [{name = "Dale Gary, Sijie Yu", email = "sijie.yu@njit.edu"}]
+dependencies = [
+    "astropy>=1.0",
+    "basemap",
+    "numpy>=1.2",
+    "ephem>=3.7.3.2",
+    'matplotlib<3; python_version<"3.0"',
+    'matplotlib; python_version>="3.0"',
+]
+
 [tool.pytest.ini_options]
 minversion = "6.0"
 testpaths = [
@@ -20,4 +34,4 @@ testpaths = [
 [tool.setuptools_scm]
 write_to = "aipy/_version.py"
 parentdir_prefix_version = "aipy-"
-fallback_version = "0.0.0"
+fallback_version = "0.1.0"
