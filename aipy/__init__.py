@@ -7,7 +7,8 @@ data sets), and some math/fitting routines from SciPy.
 All code provided is released under the GNU General Public License
 (see LICENSE.txt).
 
-Author: Aaron Parsons
+Original Author: Aaron Parsons
+Modifications by: Dale Gary, Sijie Yu
 """
 
 from __future__ import print_function, division, absolute_import
