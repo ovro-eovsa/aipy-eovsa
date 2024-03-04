@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "aipy-eovsa"
-version = "0.1.1.2"
+version = "0.1.1.3"
 description = "AIPY package customized for EOVSA data analysis."
 authors = [{name = "Dale Gary, Sijie Yu", email = "sijie.yu@njit.edu"}]
 dependencies = [
