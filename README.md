@@ -21,7 +21,7 @@ AIPY (Astronomical Interferometry in Python) is a library designed to support ra
 To install AIPY for EOVSA, you can use `pip`:
 
 ```bash
-pip install aipy-ovsa
+pip install aipy-eovsa
 ```
 
 For development purposes, you can install the source code in editable mode and build extensions in place:
